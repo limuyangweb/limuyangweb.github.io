@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,32 +7,52 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
         }
         header {
-            background: #333;
+            background-color: #333;
             color: #fff;
-            padding: 10px 0;
+            padding: 20px;
             text-align: center;
+        }
+        h1 {
+            margin: 0;
         }
         .container {
-            max-width: 1200px;
+            max-width: 800px;
             margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 0 20px;
         }
-        .link-section {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
+        .website {
+            margin-bottom: 40px;
         }
-        .link-item {
-            flex: 1 1 calc(33.333% - 20px);
-            max-width: calc(33.333% - 20px);
+        .website img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .website h2 {
             text-align: center;
-            padding: 20px;
-    
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的自制网站</h1>
+    </header>
+    <div class="container">
+        <div class="website">
+            <a href="link_to_your_website_page1.html"><img src="website1_icon.jpg" alt="Website 1"></a>
+            <h2>网站名1</h2>
+        </div>
+        <div class="website">
+            <a href="link_to_your_website_page2.html"><img src="website2_icon.jpg" alt="Website 2"></a>
+            <h2>网站名2</h2>
+        </div>
+        <!-- Add more website sections as needed -->
+    </div>
+</body>
+</html>
